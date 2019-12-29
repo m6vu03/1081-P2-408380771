@@ -1,0 +1,42 @@
+#container{
+    height: 100%;
+    width: 100%;
+    padding-top: 3% ;
+    padding-left: 8% ;
+    padding-bottom: 10% ;
+    animation-name:project ;
+    animation-duration: 1.5s;
+    animation-fill-mode: forwards;
+}
+
+@keyframes project{
+    from{
+        margin-top: 100px;
+    }
+    0%{
+        opacity: 0;
+    }
+    100%{
+        opacity: 1;
+    }
+    to{
+        margin-bottom: 0px;
+    }
+}
+
+h2{
+    text-transform: uppercase;
+    font-size: 70px;
+    letter-spacing: 0.1em;
+    color: #374c60;
+    font-weight: bold;
+}
+
+p{
+    color: rgb(112, 110, 110);
+    font-size: 40px;
+}
+
+li{
+    font-size: 40px;
+}

@@ -1,0 +1,37 @@
+#container {
+    height: 80%;
+    width: 100% auto;
+    text-align: center;
+    line-height: 100px;
+    padding:10%;
+    
+    animation-name: test;
+    animation-duration: 2s;
+}
+
+@keyframes test{
+    0%{
+        opacity: 0;
+    }
+    100%{
+        opacity: 1;
+    }
+}
+
+#container #table{
+    margin: 0px auto;
+}
+
+#container #list{
+    font-size: 30px;
+    font-weight: bold;
+    color: black;
+    padding:10px;
+    background-color: rgb(117, 188, 253);
+}
+
+#container #backcolor{
+    font-size: 20px;
+    color: black;
+    background-color: #f8bb75;
+}
